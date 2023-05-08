@@ -1,0 +1,16 @@
+{
+    "name": "alexis/poo",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Alexis\\Poo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AlexDev2808",
+            "email": "colores.2808.8000@gmail.com"
+        }
+    ],
+    "require": {}
+}
