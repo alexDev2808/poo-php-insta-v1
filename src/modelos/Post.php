@@ -9,6 +9,7 @@ class Post {
     // Tipado estricto
     // private, accedidas solo desde la clase misma
     private string $id;
+    private array $likes;
 
 
     // Constructor
@@ -19,7 +20,7 @@ class Post {
         $this->id = UUID::generate();
     }
 
-    public function saludo() {
+    protected function saludo() {
         return "Hola desde este post, con id: $this->id";
     }
 
